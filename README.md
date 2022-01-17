@@ -1,4 +1,7 @@
 # UseBayesToFindingDuck
+### [HackMD網址](https://hackmd.io/@fsxCZX7iQ3aJ2sYH5olAYw/ry3B7FbpK)
+> 因為公式跑版，以防萬一我還是附上我Hackmd的連結。
+### [GitHub網址](https://github.com/mrachelmon/UseBayesToFindingDuck)
 ## 專案描述:
 從教授提供的無人機空拍的鴨場圖中獲取training的dataset，並利用貝葉斯分類器(Bayes classifier)，從整張圖像中提取出鴨子本體像素。
 
@@ -8,7 +11,7 @@
 
 ##### 步驟 2：
 使用鴨體像素和非鴨體像素的 3 維（[red,green,blue]）特徵向量，須建立兩個Gaussian probabilistic likelihood models，
-> $P(x|\omega0)$和 $P(x|\omega1)$
+> $P(x|\omega0)$ 和 $P(x|\omega1)$
 
 非鴨類models $\omega0$，鴨類models $\omega1$，兩個models的參數（均值向量 $\mu$和協方差矩陣 $\Sigma$）可以通過從最大似然估計得出的公式進行估計。
 
